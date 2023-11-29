@@ -76,6 +76,7 @@
                     <input type="radio" id="long" name="length" value="long" />
                     <label for="long" style="color: white;">Long (6-10 sentences)</label>
                   </div>
+                  <div class="loader" style="display: none;"></div>
                 </div>
                 <br />
 
@@ -104,6 +105,14 @@
       </div>
     </div>
     <script>
+          // JavaScript to control the spinner
+    function showSpinner() {
+      document.querySelector('.loader').style.display = 'block';
+  }
+
+  function hideSpinner() {
+      document.querySelector('.loader').style.display = 'none';
+  }
       function autoSubmitForm() {
         document.getElementById("uploadForm").submit();
     }
@@ -126,6 +135,7 @@
     }    
       // JavaScript for handling generate summary functionality
       function generateSummary() {
+        showSpinner();
         var selectedLength = getSelectedRadioButtonValue('length');
     
         // AJAX request to Flask
@@ -137,6 +147,7 @@
                 // Handle the response here
                 console.log(response);
                 $('#summary').val(response);
+                hideSpinner();
             },
             error: function(error) {
                 console.log(error);
