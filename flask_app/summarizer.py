@@ -17,6 +17,7 @@ nltk.download('stopwords')
 
 # Path where the PDFs Reside
 directory_path = "/Users/schumbar/Desktop/team_projects/CMPE256/CMPE256_Team_Project/flask_app/Data/PDF"
+OPENAI_API_KEY = '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'
 
 def list_filenames(directory):
     try:

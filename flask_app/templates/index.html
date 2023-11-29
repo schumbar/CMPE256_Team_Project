@@ -36,12 +36,13 @@
               <!-- Header content here -->
             </div>
             <div class="card-body msg_card_body">
-              <!-- Upload document -->
-              <form id="uploadForm" enctype="multipart/form-data">
-                <input type="file" name="document" class="mb-3" style="color: white;">
+
+              <form action="/upload_files" method="post" enctype="multipart/form-data">
+                <input type="file" name="files[]" multiple>
+                <input type="submit" value="Upload">
                 <br>
-                <!-- [Radio buttons and other elements] -->
             </form>
+            
                 <!-- Radio buttons for summary length -->
                 <!-- Radio buttons for summary length -->
                 <div>
