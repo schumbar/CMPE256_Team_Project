@@ -16,9 +16,10 @@ This project introduces a flask-based web application designed for the summarizz
 
 Please see below for the list of deliverables related to this project.
 
-1. README.md: README file detailing this project.
-2. CMPE256_team project.ipynb: Google Colab python notebook containing the code for this project.
-3. flask_app: Folder containing the files for the flask app.
-4. screenshots: Folder containing the screenshots of the flask app.
-5. Dataset: Folder containing the Research PDFs used for this project.
-6. 256_RPS_Presentation.pptx: PowerPoint presentation for this project.
+1. **README.md**: README file detailing this project.
+2. **CMPE256_team project.ipynb**: Google Colab python notebook containing the code for this project.
+3. **flask_app**: Folder containing the files for the flask app.
+4. **screenshots**: Folder containing the screenshots of the flask app.
+5. **Dataset**: Folder containing the Research PDFs used for this project.
+6. **256_RPS_Presentation.pptx**: PowerPoint presentation for this project.
+7. **CMPE256 Team Project Demo.ipynb**: Google Colab python notebook containing the code for the demo. Please note that we have transferred the code in here to the flask_app.
