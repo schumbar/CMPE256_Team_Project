@@ -23,3 +23,14 @@ Please see below for the list of deliverables related to this project.
 5. **Dataset**: Folder containing the Research PDFs used for this project.
 6. **256_RPS_Presentation.pptx**: PowerPoint presentation for this project.
 7. **CMPE256 Team Project Demo.ipynb**: Google Colab python notebook containing the code for the demo. Please note that we have transferred the code in here to the flask_app.
+
+### Installation Instructions
+
+The following installation instructions are specific to MacOS. Please note that the instructions may vary depending on your operating system.
+The instructions below assume that you have python set up on your machine and have the pip package manager installed.
+
+To get the project running, please follow the steps below:
+
+1. cd flask_app
+2. pip install -r requirements.txt
+3. flask run
