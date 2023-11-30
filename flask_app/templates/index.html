@@ -37,7 +37,7 @@
             </div>
             <div class="card-body msg_card_body">
               <form id="uploadForm" action="/upload_files" method="post" enctype="multipart/form-data">
-                <input type="file" name="files[]" multiple onchange="showFileNames()" style="color: white;">
+                <input type="file" name="files[]" multiple onchange="showFileNames()" class"card">
                 <div id="fileNames" class="mb-3"></div>
                 {% if files %}
                 <h3 style="color: white;">Files Uploaded:</h3>
