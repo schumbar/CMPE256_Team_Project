@@ -27,10 +27,13 @@ Please see below for the list of deliverables related to this project.
 ### Installation Instructions
 
 The following installation instructions are specific to MacOS. Please note that the instructions may vary depending on your operating system.
-The instructions below assume that you have python set up on your machine and have the pip package manager installed.
+The instructions below assume that you have python installed on your machine and have the python pip package manager installed.
 
 To get the project running, please follow the steps below:
 
-1. cd flask_app
-2. pip install -r requirements.txt
-3. flask run
+1. Clone the repository
+2. `cd flask_app`
+3. `pip install -r requirements.txt`
+4. Change the `directory_path` and `OPENAI_API_KEY` variables within the `summarizer.py` file.
+5. Change the `PDF_File_Directory` variable in the `app.py` file.
+6. `flask run`
